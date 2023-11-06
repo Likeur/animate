@@ -1,0 +1,15 @@
+/* we have to import all the directive for tailwind utility-classes  */
+
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+#main-text{
+    font-family: 'Playfair Display', serif;
+}

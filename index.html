@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body class="w-screen overflow-x-hidden">
+   
+    <main>
+       
+        <section class="h-screen w-screen flex justify-center items-end relative lg:items-end">
+            <nav class="absolute top-0 p-8 w-full flex justify-between items-center">
+                <div>
+                    <a href="" id="logo" class="text-3xl underline relative z-50">
+                        Animate
+                    </a>
+                </div>
+                <ul id="menu" class="text-4xl lg:text-[5rem] flex left-0 top-0 scale-0 duration-300 absolute h-screen z-30 w-full bg-black text-white items-center leading-none uppercase justify-center flex-col">
+                    <li class=" font-semibold menu-link hover:rotate-180"><a href="">Home</a></li>
+                    <li class=" font-semibold menu-link hover:rotate-180"><a href="">About</a></li>
+                    <li class=" font-semibold menu-link hover:rotate-180"><a href="">Features</a></li>
+                    <li class=" font-semibold menu-link hover:rotate-180"><a href="">Contact</a></li> 
+                </ul>
+                <button id="menu-btn" class="duration-300 relative z-50 bg-black text-white font-semibold p-3 px-5 rounded-full shadow-md">Menu</button>
+            </nav>
+            
+            <span class="animate-croix-left absolute top-[28rem] left-[5rem] lg:top-[10rem] lg:left-[10rem] scale-50 text-7xl rotate-45">+</span>
+            <span class="animate-croix absolute top-[28rem] left-[10rem] lg:top-[20rem] lg:right-[10rem] text-7xl scale-50 rotate-45">+</span>
+            <span class="animate-croix-left absolute top-[28rem] right-[5rem] lg:top-[20rem] lg:left-[10rem] text-7xl scale-50 rotate-45">+</span>
+            <span class="animate-croix absolute top-[28rem] right-[10rem] lg:top-[30rem] lg:right-[10rem] text-7xl scale-50 rotate-45">+</span>
+            <h1 id="main-text" class="group hover:-translate-x-4 hover:rotate-1 hover:duration-300 text-5xl -translate-y-[15rem] lg:-translate-y-[3rem] lg:text-[10rem] lg:p-8 relative z-20 flex scale-y-150 font-semibold">
+                <span class="animate inline-block group-hover:bg-red-600 group-hover:duration-300 group-hover:text-white">A</span>
+                <span class="animate2 block ">N</span>
+                <span class="animate3 block ">I</span>
+                <span class="animate4 inline-block">M</span>
+                <span class="animate5 block ">A</span>
+                <span class="animate6 block">T</span>
+                <span class="animate7 block">E</span>
+            </h1>
+        </section>
+        <section class="sect-bg">
+            <section class="h-screen relative flex text-white p-8 justify-end">
+                <h2 class="reveal-type animate8 left-2 lg:left-10 bottom-10 absolute z-50 w-[60%] text-4xl lg:text-7xl font-semibold mix-blend-exclusion">Creative code is what i like , reason why i use most of animation librairies</h2>
+                <div class="object-cover">
+                    <img src="https://images.pexels.com/photos/1047540/pexels-photo-1047540.jpeg?auto=compress&cs=tinysrgb&w=600" class="scale-75 lg:scale-75 anim-image1 inline-block relative top-28  lg:top-0  z-30 brightness-75 lg:bottom-4 grayscale hover:grayscale-0 hover:duration-500"  alt="">
+                </div>
+            </section>
+            <section class="h-screen text-white flex justify-center items-center p-8">
+                <h2 class="reveal-type animate9 lg:w-[80%] text-4xl lg:text-8xl font-semibold">Some of those librairies allows us to create multiple and variates animations using javascript</h2>
+            </section>
+        </section>
+        
+        <section class="h-screen text-gray-600 flex flex-col items-center relative p-8 justify-end">
+            <h2 id="second-text" class="group text-5xl lg:text-[3rem] lg:p-8 relative z-20 flex font-semibold">
+                <span class="lg:text-black relative  left-3 lg:left-0 text-white">About us</span>
+                <span class="block absolute bottom-5 h-2 w-20 bg-gray-600"></span>
+            </h2>
+            <div>
+                <img src="https://images.pexels.com/photos/959314/pexels-photo-959314.jpeg?auto=compress&cs=tinysrgb&w=600" class="animate-img2 absolute mix-blend-exclusion brightness-50 hover:brightness-100 top-0 left-0 lg:top-7 lg:left-20 grayscale hover:grayscale-0" alt="">
+            </div>
+            <h2 class="reveal-type troisieme-text text-blue-700 text-2xl lg:text-6xl lg:w-[50%] font-semibold mix-blend-exclusion left-2 -translate-x-[6rem] lg:-translate-x-0 z-50 relative lg:left-32">Hey! We Are a créative web agency who focused on creative design and creating unforgetable xperience.</h2>
+            <span class="bubble hidden lg:inline-block bg-blue-600 left-10 h-10 w-10 rounded-full absolute"></span>
+            <span class="bubble hidden lg:inline-block bg-green-600 right-20 top-10 h-10 w-10 rounded-full absolute"></span>
+            <span class="bubble hidden lg:inline-block bg-blue-600 h-10 w-10 z-10 right-44 rounded-full absolute"></span>
+            <span class="bubble hidden lg:inline-block bg-red-600 h-10 w-10 left-28 top-7 rounded-full absolute"></span>
+            <span class="bubble hidden lg:inline-block bg-pink-600 h-10 w-10 rounded-full absolute"></span>
+        </section>
+        
+        <section class="h-screen relative mt-20 lg:mt-0">
+            <h2 id="trois-text" class="top-20 text-5xl lg:text-[3rem] lg:p-8 relative z-20 flex font-semibold">
+                <span>works</span>
+                <span class="block absolute bottom-5 h-2 w-20 bg-gray-600"></span>
+            </h2>
+            <div class="work-box flex items-center justify-center mt-24 h-[30vh] lg:h-[70vh]">
+                <div class=" shadow-md h-32 lg:h-64 w-80 block rounded-md object-cover overflow-hidden">
+                    <img src="https://i.pinimg.com/564x/84/2b/6e/842b6e30df18c49f94af5d825222fca1.jpg" alt="">
+                </div>
+                <div class=" shadow-md h-32 lg:h-64 w-80 block rounded-md ml-2 object-cover overflow-hidden">
+                    <img src="https://i.pinimg.com/564x/c0/ad/ca/c0adcac00d50347860e99e13e20cf8a1.jpg" alt="">
+                </div>
+                <div class=" shadow-md h-32 lg:h-64 w-80 block rounded-md ml-2 object-cover overflow-hidden">
+                    <img src="https://i.pinimg.com/564x/73/84/b5/7384b5480bcaef6f7e8664e320a6aea7.jpg" alt="">
+                </div>
+                <div class=" shadow-md h-32 lg:h-64 w-80 block rounded-md ml-2 object-cover overflow-hidden">
+                    <img src="https://i.pinimg.com/564x/66/13/e9/6613e931eb8adfce42102de8d5e366e7.jpg" alt="">
+                </div>
+            </div>
+            <div class="work-box2 flex flex-shrink items-center justify-center mt-10 h-[15vh]">
+                <div class="shadow-md h-32 lg:h-64 w-80 block rounded-md object-cover overflow-hidden">
+                    <img src="https://i.pinimg.com/736x/3c/15/3f/3c153f0fe4702f080f8bf88f44cdc3d2.jpg" alt="">
+                </div>
+                <div class="shadow-md h-32 lg:h-64 w-80 block rounded-md ml-2 object-cover overflow-hidden">
+                    <img src="https://i.pinimg.com/736x/8d/cc/fa/8dccfa71588b7646374ea4a1519130a2.jpg" alt="">
+                </div>
+                <div class="shadow-md h-32 lg:h-64 w-80 block rounded-md ml-2 object-cover overflow-hidden">
+                    <img src="https://i.pinimg.com/564x/b7/5f/36/b75f36bd8c4871b48bcbfb6dc671d099.jpg" alt="">
+                </div>
+                <div class="shadow-md h-32 lg:h-64 w-80 block rounded-md ml-2 object-cover overflow-hidden">
+                    <img src="https://i.pinimg.com/564x/ce/9c/12/ce9c121090c451eef9346901e97f0f04.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="h-screen flex flex-col items-center justify-end p-8 mt-20">
+            <a href="https://github.com/Likeur" class="underline text-4xl font-semibold">Github</a>
+            <a href="https://www.linkedin.com/in/likeur-off-47984327a/" class="underline text-4xl font-semibold">LinkedIn</a>
+            <a href="https://instagram.com/@likeur_off" class="underline text-4xl font-semibold">Instagram</a>
+
+            <p class="mt-10 text-4xl">Copyright &copy; 2023 by likeur off</p>
+        </section>
+    </main>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.27/bundled/lenis.min.js"></script> 
+    <!-- Minified UMD bundle -->
+    <script src="https://unpkg.com/split-type"></script>
+
+    <script>
+
+        //GSAP
+        gsap.registerPlugin(ScrollTrigger)
+
+        const splitTypes = document.querySelectorAll('.reveal-type')
+        
+        // split all text
+        splitTypes.forEach((char,i) =>{
+
+            const text = new SplitType(char, { types: 'chars'})
+
+            gsap.from(text.chars, {
+                scrollTrigger: {
+                    trigger: char,
+                    start: 'top 80%',
+                    end: 'top 20%',
+                    scrub: true,
+                    markers: false
+                },
+                y:100,
+                opacity: 0,
+                stagger: 0.1
+            })
+            
+        })
+        gsap.fromTo('.animate', {
+            opacity:0
+            
+        }, {
+            opacity:1,
+            duration: 1,
+            delay:0.8
+        })
+        gsap.fromTo('.animate2', {
+            opacity:0
+            
+        }, {
+            opacity:1,
+            duration: 1,
+            delay:0.2
+        })
+        gsap.fromTo('.animate3', {
+            opacity:0
+            
+        }, {
+            opacity:1,
+            duration: 1,
+            delay:0.4
+        })
+        gsap.fromTo('.animate4', {
+            opacity:0
+            
+        }, {
+            opacity:1,
+            duration: 1,
+            delay:0.6
+        })
+        gsap.fromTo('.animate5', {
+            opacity:0
+            
+        }, {
+            opacity:1,
+            duration: 1,
+            delay:1
+        })
+        gsap.fromTo('.animate6', {
+            opacity:0
+            
+        }, {
+            opacity:1,
+            duration: 1,
+            delay:1.2
+        })
+        gsap.fromTo('.animate7', {
+            opacity:0
+            
+        }, {
+            opacity:1,
+            duration: 1,
+            delay:0.6
+        })
+        gsap.to('.animate', {
+                scrollTrigger: {
+                    trigger: '.animate',
+                    start: 'top center',
+                    end: 'top 10%',
+                    scrub: true,
+                  
+                },
+                y:-150,
+            
+        })
+        gsap.to('.animate2', {
+                scrollTrigger: {
+                    trigger: '.animate2',
+                    start: 'top center',
+                    end: 'top 10%',
+                    scrub: true,
+                   
+                },
+                y:-100,
+                
+        })
+        gsap.to('.animate3', {
+                scrollTrigger: {
+                    trigger: '.animate3',
+                    start: 'top center',
+                    end: 'top 10%',
+                    scrub: true,
+                   
+                },
+                y:-200,
+                
+        })
+        gsap.to('.animate4', {
+                scrollTrigger: {
+                    trigger: '.animate4',
+                    start: 'top center',
+                    end: 'top 10%',
+                    scrub: true,
+                  
+                },
+                y:-170,
+                
+        })
+        gsap.to('.animate5', {
+                scrollTrigger: {
+                    trigger: '.animate5',
+                    start: 'top center',
+                    end: 'top 10%',
+                    scrub: true,
+                
+                },
+                y:-130,
+                
+        })
+        gsap.to('.animate6', {
+                scrollTrigger: {
+                    trigger: '.animate6',
+                    start: 'top center',
+                    end: 'top 10%',
+                    scrub: true,
+                
+                },
+                y:-190,
+                
+        })
+        gsap.to('.animate7', {
+                scrollTrigger: {
+                    trigger: '.animate6',
+                    start: 'top center',
+                    end: 'top 10%',
+                    scrub: true,
+                  
+                },
+                y:-80,
+                
+        })
+        gsap.to('.animate8', {
+                scrollTrigger: {
+                    trigger: '.animate8',
+                    start: 'top 70%',
+                    end: 'top 10%',
+                    scrub: true,
+                    
+                },
+                y:-150,
+                x:50
+        })
+        gsap.to('.troisieme-text', {
+                scrollTrigger: {
+                    trigger: '.troisieme-text',
+                    start: 'top 70%',
+                    end: 'top 10%',
+                    scrub: true,
+                    
+                },
+                y:150,
+                x:50
+        })
+        gsap.to('.anim-image1', {
+                scrollTrigger: {
+                    trigger: '.anim-image1',
+                    start: 'top center',
+                    end: 'top top',
+                    scrub: true,
+                   
+                },
+                y:200,
+                x:-50
+                
+        })
+        gsap.to('.animate-img2', {
+                scrollTrigger: {
+                    trigger: '.animate-img2',
+                    start: 'top center',
+                    end: 'top top',
+                    scrub: true,
+                   
+                },
+                y:250,
+                // x:20,
+                scale: 0.8,
+                borderRadius: "60px"
+                
+        })
+        gsap.to('.animate-croix', {
+                scrollTrigger: {
+                    trigger: '.animate-croix',
+                    start: 'top center',
+                    end: 'top 20%',
+                    scrub: true,
+                  
+                },
+                y:-100,
+                scale: 1.3
+                
+                
+        })
+        gsap.to('.animate-croix-left', {
+                scrollTrigger: {
+                    trigger: '.animate-croix-left',
+                    start: 'bottom 40%',
+                    end: 'bottom top',
+                    scrub: true,
+               
+                },
+                y:100,
+                scale: 1.2    
+        })
+        gsap.to('#second-text', {
+                scrollTrigger: {
+                    trigger: '#second-text',
+                    start: 'top 60%',
+                    end: 'bottom top',
+                    scrub: true,
+                
+                },
+                x:180,  
+                y:-100
+        })
+        gsap.to('#trois-text', {
+                scrollTrigger: {
+                    trigger: '#trois-text',
+                    start: 'top 60%',
+                    end: 'bottom top',
+                    scrub: true,
+                
+                },
+                x:180,  
+                y:100
+        })
+        gsap.to('.bubble', {
+                scrollTrigger: {
+                    trigger: '.bubble',
+                    start: 'top 80%',
+                    end: 'bottom top',
+                    scrub: true,
+                  
+                },
+                x:180,  
+                y:-100,
+                borderRadius: "10%"
+        })
+        gsap.to('.work-box', {
+                scrollTrigger: {
+                    trigger: '.work-box',
+                    start: 'top 80%',
+                    end: 'bottom top',
+                    scrub: true,
+                  
+                },
+                x:-300,  
+        })
+        gsap.to('.work-box2', {
+                scrollTrigger: {
+                    trigger: '.work-box2',
+                    start: 'top 80%',
+                    end: 'bottom top',
+                    scrub: true,
+                  
+                },
+                x:300,  
+        })
+        gsap.to('.sect-bg', {
+                scrollTrigger: {
+                    trigger: '.sect-bg',
+                    start: 'top 30%',
+                    end: 'bottom 80%',
+                    scrub: true,
+                 
+                   
+                },
+                backgroundColor : "black"
+   
+        })
+
+        const btnMenu =  document.querySelector('#menu-btn')
+        btnMenu.addEventListener('click', ()=>{
+            const menuOpen = document.querySelector('#menu')
+            const logoWebsite = document.querySelector('#logo')
+     
+            menuOpen.classList.toggle('scale-0')
+            btnMenu.classList.toggle('bg-black')
+            btnMenu.classList.toggle('bg-white')
+            btnMenu.classList.toggle('text-white')
+     
+            logoWebsite.classList.toggle('text-white')
+
+        })
+        // lenis config for the smooth scroll
+        const lenis = new Lenis()
+
+        lenis.on('scroll', (e) => {
+        console.log(e)
+        })
+
+        function raf(time) {
+        lenis.raf(time)
+        requestAnimationFrame(raf)
+        }
+
+        requestAnimationFrame(raf)
+    </script>
+</body>
+</html>
